@@ -1,0 +1,12 @@
+﻿@page "/"
+@inject IJSRuntime JsRuntime
+
+<div id="dashboard"> </div>
+
+@functions {
+    protected override void OnAfterRender(bool firstRender)
+    {
+
+        JsRuntime.InvokeAsync<object>("renderDashboard");
+    }
+}
