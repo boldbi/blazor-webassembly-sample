@@ -19,10 +19,11 @@ The samples need the following requirements to run.
  ## Using the Blazor WebAssembly sample
  
  * Open the BlazorWebAssembly sample in Visual Studio Code.
- 
- * This [link](https://help.boldbi.com/cloud-bi/site-administration/embed-settings/) using able to download the embedConfig.json file. 
- 
- * Copy the downloaded embedConfig.json file and paste it into the sample [application](https://github.com/boldbi/aspnet-core-sample/tree/master/BoldBI.Embed.Sample/BoldBI.Embed.Sample).
+
+ * Download the embedConfig.json file by referring to this [help documentation](https://help.boldbi.com/cloud-bi/site-administration/embed-settings/)
+
+ * Copy the downloaded embedConfig.json file and place it into the following [location](https://github.com/boldbi/aspnet-core-sample/tree/master/BoldBI.Embed.Sample/BoldBI.Embed.Sample) of the application. Please refer to the below image.
+![Example image](https://user-images.githubusercontent.com/91586758/236446545-8fee653c-4239-49c3-87a1-7d2477681aac.png)
  
  * The following properties are used in `embedConfig.json` file:
 
