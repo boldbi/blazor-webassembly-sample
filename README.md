@@ -76,7 +76,7 @@ This project was generated using Blazor Server CLI version 6.0 or a later versio
 
   * Visual studio code(https://code.visualstudio.com/download)
 
- ## How to run sample using visual studio code
+  ### How to run sample using visual studio code
  
   1. Open the Blazor Server sample in Visual Studio Code. 
    
