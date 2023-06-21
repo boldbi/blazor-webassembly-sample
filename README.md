@@ -29,9 +29,9 @@ This project was created using ASP.NET Core 6.0. This application aims to demons
     ![Embed Settings Download](https://github.com/boldbi/aspnet-core-sample/assets/91586758/d27d4cfc-6a3e-4c34-975e-f5f22dea6172)
     ![EmbedConfig Properties](https://github.com/boldbi/aspnet-core-sample/assets/91586758/d6ce925a-0d4c-45d2-817e-24d6d59e0d63)
 
-  * Copy the downloaded `embedConfig.json` file and paste it into the designated [location](https://github.com/boldbi/blazor-webassembly-sample/tree/master/BlazorWebAssembly) within the application. Please ensure you have placed it in the application, as shown in the following image.
+  * Copy the downloaded `embedConfig.json` file and paste it into the designated [location](https://github.com/boldbi/blazor-webassembly-sample/tree/master/BlazorWebAssembly/Server) within the application. Please ensure you have placed it in the application, as shown in the following image.
 
-    ![EmbedConfig image](https://github.com/boldbi/aspnet-core-sample/assets/91586758/a1316cfb-d18e-4f4b-9dbc-57adf44fbcfb)
+    ![EmbedConfig image](https://github.com/boldbi/aspnet-core-sample/assets/91586758/f6fb1b22-5478-41aa-9d25-7afac86ace08)
 
 ## How to run sample using command prompt
 
@@ -51,7 +51,7 @@ This project was created using ASP.NET Core 6.0. This application aims to demons
 
      ![dashboard image](https://github.com/boldbi/aspnet-core-sample/assets/91586758/4af68f49-ffc0-400a-a323-55a3f3600a1d)
 
-Please refer to the [help documentation](https://help.boldbi.com/embedded-bi/javascript-based/samples/v3.3.40-or-later/blazor-with-javascript/#how-to-run-the-blazor-webassembly-sample) to learn how to run the sample.
+Please refer to the [help documentation](https://help.boldbi.com/embedding-options/embedding-sdk/samples/blazor-with-javascript/#how-to-run-blazor-server-sample) to learn how to run the sample.
 
 ## Important notes
 
