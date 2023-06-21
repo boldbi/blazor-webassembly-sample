@@ -4,7 +4,7 @@ This project was created using ASP.NET Core 7.0. This application aims to demons
 
 ## Dashboard view
 
-![Dashboard View](https://github.com/boldbi/aspnet-core-sample/assets/91586758/4af68f49-ffc0-400a-a323-55a3f3600a1d)
+![Dashboard View](https://github.com/boldbi/aspnet-core-sample/assets/91586758/817913b9-620e-43b5-bd98-fed9e800c668)
 
  ## Requirements/Prerequisites
 
@@ -45,11 +45,11 @@ This project was created using ASP.NET Core 7.0. This application aims to demons
 
   ### How to run sample using visual studio code
  
-  1. Open the [Blazor WebAssembly](https://github.com/boldbi/blazor-webassembly-sample/tree/master/BlazorWebAssembly/Server) sample in Visual Studio Code. 
+  1. Open the [Blazor WebAssembly](https://github.com/boldbi/blazor-webassembly-sample/tree/master/BlazorWebAssembly/Server) sample in Visual Studio Code.
    
-  2. To run the application, use the command `dotnet watch run` in the terminal. After executing the command, the application will automatically launch in the default browser. You can access it at the specified port number (e.g., http://localhost:5001/).
+  2. To run the application, use the command `dotnet watch run` in the terminal. After executing the command, the application will automatically launch in the default browser. You can access it at the specified port number (e.g., http://localhost:5154/).
 
-     ![dashboard image](https://github.com/boldbi/aspnet-core-sample/assets/91586758/4af68f49-ffc0-400a-a323-55a3f3600a1d)
+     ![dashboard image](https://github.com/boldbi/aspnet-core-sample/assets/91586758/817913b9-620e-43b5-bd98-fed9e800c668)
 
 Please refer to the [help documentation](https://help.boldbi.com/embedding-options/embedding-sdk/samples/blazor-web-assembly/#how-to-run-blazor-server-sample) to learn how to run the sample.
 
