@@ -45,7 +45,7 @@ This project was created using ASP.NET Core 7.0. This application aims to demons
 
   ### How to run sample using visual studio code
  
-  1. Open the [Blazor WebAssembly sample](https://github.com/boldbi/blazor-webassembly-sample/tree/master/BlazorWebAssembly/Server) in Visual Studio Code. 
+  1. Open the [Blazor WebAssembly](https://github.com/boldbi/blazor-webassembly-sample/tree/master/BlazorWebAssembly/Server) sample in Visual Studio Code. 
    
   2. To run the application, use the command `dotnet watch run` in the terminal. After executing the command, the application will automatically launch in the default browser. You can access it at the specified port number (e.g., http://localhost:5001/).
 
