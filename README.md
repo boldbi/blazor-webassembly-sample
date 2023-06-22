@@ -31,13 +31,15 @@ This project was created using ASP.NET Core 7.0. This application aims to demons
 
   * Copy the downloaded `embedConfig.json` file and paste it into the designated [location](https://github.com/boldbi/blazor-webassembly-sample/tree/master/BlazorWebAssembly/Server) within the application. Please ensure you have placed it in the application, as shown in the following image.
 
-    ![EmbedConfig image](https://github.com/boldbi/aspnet-core-sample/assets/91586758/f6fb1b22-5478-41aa-9d25-7afac86ace08)
+    ![EmbedConfig image](https://github.com/boldbi/aspnet-core-sample/assets/91586758/5e3e876f-ceff-435f-835c-99e51f709c2d)
 
 ## How to run sample using command prompt
 
-  1. Open the command line interface and navigate to the specified file [location](https://github.com/boldbi/blazor-webassembly-sample/tree/master/BlazorWebAssembly/Server) where the project is located.
+  1. Open the command line interface and navigate to the specified file [location](https://github.com/boldbi/blazor-webassembly-sample/tree/master/BlazorWebAssembly) where the project is located.
+
+  2. Open the terminal and navigate to the `Server project` directory using the cd command(e.g., cd C:\BlazorProject\Server).
   
-  2. Finally, run the application using the command `dotnet watch run`. After executing the command, the application will automatically launch in the default browser. You can access it at the specified port number (e.g., http://localhost:5154/).
+  3. Finally, run the application using the command `dotnet watch run`. After executing the command, the application will automatically launch in the default browser. You can access it at the specified port number (e.g., http://localhost:5154/).
 
  ## Developer IDE
 
@@ -45,9 +47,11 @@ This project was created using ASP.NET Core 7.0. This application aims to demons
 
   ### How to run sample using visual studio code
  
-  1. Open the [Blazor WebAssembly](https://github.com/boldbi/blazor-webassembly-sample/tree/master/BlazorWebAssembly/Server) sample in Visual Studio Code.
+  1. Open the [Blazor WebAssembly](https://github.com/boldbi/blazor-webassembly-sample/tree/master/BlazorWebAssembly) sample in Visual Studio Code.
+
+  2. Open the terminal and navigate to the `Server project` directory using the cd command(e.g., cd C:\BlazorProject\Server).
    
-  2. To run the application, use the command `dotnet watch run` in the terminal. After executing the command, the application will automatically launch in the default browser. You can access it at the specified port number (e.g., http://localhost:5154/).
+  3. To run the application, use the command `dotnet watch run` in the terminal. After executing the command, the application will automatically launch in the default browser. You can access it at the specified port number (e.g., http://localhost:5154/).
 
      ![dashboard image](https://github.com/boldbi/aspnet-core-sample/assets/91586758/817913b9-620e-43b5-bd98-fed9e800c668)
 
