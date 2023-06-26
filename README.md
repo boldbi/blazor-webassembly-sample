@@ -1,70 +1,67 @@
-# BoldBI Embedding Blazor WebAssembly Sample
+# Bold BI Embedded Sample in Blazor WebAssembly
 
- This Bold BI Blazor WebAssembly sample contains the Dashboard embedding sample. This sample demonstrates the dashboard rendering with the available dashboard in your Bold BI server.
+This project was created using ASP.NET Core 7.0. This application aims to demonstrate how to render the dashboard available on your Bold BI server.
 
-This section guides you in using the Bold BI dashboard in your Blazor WebAssembly sample application.
+## Dashboard view
 
- * [Requirements to run the demo](#requirements-to-run-the-demo)
- * [Using the Blazor WebAssembly sample](#using-the-blazor-webassembly-sample)
- * [Online Demos](#online-demos)
- * [Documentation](#documentation)
+![Dashboard View](https://github.com/boldbi/aspnet-core-sample/assets/91586758/817913b9-620e-43b5-bd98-fed9e800c668)
 
- ## Requirements to run the demo
+ ## Requirements/Prerequisites
 
-The samples need the following requirements to run.
+ * [.NET Core 7.0](https://dotnet.microsoft.com/download/dotnet-core)
 
- * [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/)
- * [.NET Core 6.0 or later](https://dotnet.microsoft.com/en-us/download/dotnet-core)
+ #### Help link
 
- ## Using the Blazor WebAssembly sample
+ * https://help.boldbi.com/embedded-bi/faq/where-can-i-find-the-product-version/
+
+ #### Supported browsers
+  
+  * Google Chrome, Microsoft Edge, Mozilla Firefox, and Safari.
+
+ ## Configuration
+
+  * Please ensure you have enabled embed authentication on the `embed settings` page. If it is not currently enabled, please refer to the following image or detailed [instructions](https://help.boldbi.com/site-administration/embed-settings/#get-embed-secret-code) to enable it.
+
+    ![Embed Settings](https://github.com/boldbi/aspnet-core-sample/assets/91586758/b3a81978-9eb4-42b2-92bb-d1e2735ab007)
+
+  * To download the `embedConfig.json` file, please follow this [link](https://help.boldbi.com/site-administration/embed-settings/#get-embed-configuration-file) for reference. Additionally, you can refer to the following image for visual guidance.
+  
+    ![Embed Settings Download](https://github.com/boldbi/aspnet-core-sample/assets/91586758/d27d4cfc-6a3e-4c34-975e-f5f22dea6172)
+    ![EmbedConfig Properties](https://github.com/boldbi/aspnet-core-sample/assets/91586758/d6ce925a-0d4c-45d2-817e-24d6d59e0d63)
+
+  * Copy the downloaded `embedConfig.json` file and paste it into the `Server folder` [location](https://github.com/boldbi/blazor-webassembly-sample/tree/master/BlazorWebAssembly/Server) within the application. Please ensure you have placed it in the application, as shown in the following image.
+
+    ![EmbedConfig image](https://github.com/boldbi/blazor-webassembly-sample/assets/91586758/ac48a1f7-7d89-4171-bc5a-c26d9b872cb2)
+
+## How to run sample using command prompt
+
+  1. Open the `command line interface` and navigate to the specified file [location](https://github.com/boldbi/blazor-webassembly-sample/tree/master/BlazorWebAssembly) where the project is located.
+
+  2. Open the terminal and navigate to the `Server project` directory using the `cd command`(e.g., `cd C:\BlazorProject\Server`).
+  
+  3. Finally, run the application using the command `dotnet watch run`. After executing the command, the application will automatically launch in the default browser. You can access it at the specified port number (e.g., http://localhost:5154/).
+
+ ## Developer IDE
+
+  * Visual studio code(https://code.visualstudio.com/download)
+
+  ### How to run sample using visual studio code
  
- * Open the solution file `BlazorWebAssembly.sln` in Visual studio. 
+  1. Open the [Blazor WebAssembly](https://github.com/boldbi/blazor-webassembly-sample/tree/master/BlazorWebAssembly) sample in Visual Studio Code.
 
- * Open the EmbedProperties.cs file under the BlazorWebAssembly.Shared project.
+  2. Open the terminal and navigate to the `Server project` directory using the `cd command`(e.g., `cd C:\BlazorProject\Server`).
+   
+  3. To run the application, use the command `dotnet watch run` in the terminal. After executing the command, the application will automatically launch in the default browser. You can access it at the specified port number (e.g., http://localhost:5154/).
 
- * Please change the following properties in the `EmbedProperties.cs` file per your Bold BI Server.
+     ![dashboard image](https://github.com/boldbi/aspnet-core-sample/assets/91586758/817913b9-620e-43b5-bd98-fed9e800c668)
 
-<meta charset="utf-8"/>
-<table>
-  <tbody>
-    <tr>
-        <td align="left">UserEmail</td>
-        <td align="left">UserEmail of the Admin in your Bold BI, which will be used to get the dashboard list.</td>
-    </tr>
-    <tr>
-        <td align="left">EmbedSecret</td>
-        <td align="left">Get your EmbedSecret key from the Embed tab by enabling the `Enable embed authentication` on the Administration page https://help.boldbi.com/embedded-bi/site-administration/embed-settings/.</td>
-    </tr>
-  </tbody>
-</table>
+Please refer to the [help documentation](https://help.boldbi.com/embedding-options/embedding-sdk/samples/blazor-web-assembly/#how-to-run-blazor-server-sample) to learn how to run the sample.
 
-* Change the following properties in the script tag of the `index.html` file under the BlazorWebAssembly.client project in the following location, wwwroot/index.html per your Bold BI Server.
+## Important notes
 
-<meta charset="utf-8"/>
-<table>
-  <tbody>
-    <tr>
-        <td align="left">RootUrl</td>
-        <td align="left">Dashboard Server URL (Eg: http://localhost:5000/bi, http://demo.boldbi.com/bi).</td>
-    </tr>
-    <tr>
-        <td align="left">SiteIdentifier</td>
-        <td align="left">For the Bold BI Enterprise edition, it should be like `site/site1.` For Bold BI Cloud, it should be an empty string.</td>
-    </tr>
-    <tr>
-        <td align="left">Environment</td>
-        <td align="left">Your Bold BI application environment. (If Cloud, you should use `cloud,` if Enterprise, you should use `enterprise`).</td>
-    </tr>
-    <tr>
-        <td align="left">dashboardId</td>
-        <td align="left">Provide the dashboard id of the dashboard you want to embed in view or edit mode. Ignore this property to create a new dashboard.</td>
-    </tr>
-  </tbody>
-</table>
+It is recommended not to store passwords and sensitive information in configuration files for security reasons in a real-world application. Instead, you should consider using a secure application, such as Key Vault, to safeguard your credentials.
 
-Please refer to the [help documentation](https://help.boldbi.com/embedded-bi/javascript-based/samples/v3.3.40-or-later/blazor-with-javascript/#how-to-run-the-blazor-webassembly-sample) to learn how to run the sample.
-
-## Online Demos
+## Online demos
 
 Look at the Bold BI Embedding sample to live demo [here](https://samples.boldbi.com/embed).
 
