@@ -31,7 +31,7 @@ This project was created using ASP.NET Core 7.0. This application aims to demons
 
   * Copy the downloaded `embedConfig.json` file and paste it into the `Server folder` [location](https://github.com/boldbi/blazor-webassembly-sample/tree/master/BlazorWebAssembly/Server) within the application. Please ensure you have placed it in the application, as shown in the following image.
 
-    ![EmbedConfig image](https://github.com/boldbi/aspnet-core-sample/assets/91586758/61b94337-577a-412e-952a-2a7687a397b0)
+    ![EmbedConfig image](https://github.com/boldbi/blazor-webassembly-sample/assets/91586758/f0e65790-6db0-4ff5-8302-29100b1f66fa)
 
 ## How to run sample using command prompt
 
