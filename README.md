@@ -10,10 +10,6 @@ This project was created using ASP.NET Core 7.0. This application aims to demons
 
  * [.NET Core 7.0](https://dotnet.microsoft.com/download/dotnet-core)
 
- #### Help link
-
- * https://help.boldbi.com/embedded-bi/faq/where-can-i-find-the-product-version/
-
  #### Supported browsers
   
   * Google Chrome, Microsoft Edge, Mozilla Firefox, and Safari.
