@@ -23,7 +23,15 @@ namespace BlazorWebAssembly.Server.Controllers
             string basePath = AppDomain.CurrentDomain.BaseDirectory;
             string jsonString = System.IO.File.ReadAllText(Path.Combine(basePath, "embedConfig.json"));
             GlobalAppSettings.EmbedDetails = JsonConvert.DeserializeObject<EmbedDetails>(jsonString);
-            return Ok(jsonData);
+            
+            return Json(new
+            {
+                DashboardId = GlobalAppSettings.EmbedDetails.DashboardId,
+                ServerUrl = GlobalAppSettings.EmbedDetails.ServerUrl,
+                EmbedType = GlobalAppSettings.EmbedDetails.EmbedType,
+                Environment = GlobalAppSettings.EmbedDetails.Environment,
+                SiteIdentifier = GlobalAppSettings.EmbedDetails.SiteIdentifier
+            });
         }
 
         [HttpGet]
