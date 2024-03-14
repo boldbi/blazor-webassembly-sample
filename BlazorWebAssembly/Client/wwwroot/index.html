@@ -34,7 +34,15 @@
             try {
                 const response = await fetch('/api/EmbedData/GetConfig');
                 const embedConfig = await response.json();
-                data = embedConfig;
+                // Transform camelCase keys to PascalCase
+                const transformedEmbedConfigData = {
+                    DashboardId: embedConfig.dashboardId,
+                    EmbedType: embedConfig.embedType,
+                    Environment: embedConfig.environment,
+                    ServerUrl: embedConfig.serverUrl,
+                    SiteIdentifier: embedConfig.siteIdentifier
+                };
+                data = transformedEmbedConfigData;
             } catch (error) {
                 window.location.href = 'api/EmbedData/EmbedConfigErrorLog';
             }
