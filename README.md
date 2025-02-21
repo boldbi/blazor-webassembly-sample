@@ -4,7 +4,7 @@ This project was created using ASP.NET Core 7.0. This application aims to demons
 
 ## Dashboard view
 
-![Dashboard View](https://github.com/boldbi/aspnet-core-sample/assets/91586758/817913b9-620e-43b5-bd98-fed9e800c668)
+![Dashboard View](/images/dashboard.png)
 
 ## Requirements/Prerequisites
 
@@ -12,22 +12,22 @@ This project was created using ASP.NET Core 7.0. This application aims to demons
 
 ### Supported browsers
   
-* Google Chrome, Microsoft Edge, Mozilla Firefox, and Safari.
+* Google Chrome, Microsoft Edge, and Mozilla Firefox.
 
 ## Configuration
 
 * Please ensure you have enabled embed authentication on the `embed settings` page. If it is not currently enabled, please refer to the following image or detailed [instructions](https://help.boldbi.com/site-administration/embed-settings/#get-embed-secret-code?utm_source=github&utm_medium=backlinks) to enable it.
 
-    ![Embed Settings](https://github.com/boldbi/aspnet-core-sample/assets/91586758/b3a81978-9eb4-42b2-92bb-d1e2735ab007)
+    ![Embed Settings](/images/enable-embedsecretkey.png)
 
 * To download the `embedConfig.json` file, please follow this [link](https://help.boldbi.com/site-administration/embed-settings/#get-embed-configuration-file?utm_source=github&utm_medium=backlinks) for reference. Additionally, you can refer to the following image for visual guidance.
   
-    ![Embed Settings Download](https://github.com/boldbi/aspnet-core-sample/assets/91586758/d27d4cfc-6a3e-4c34-975e-f5f22dea6172)
-    ![EmbedConfig Properties](https://github.com/boldbi/aspnet-core-sample/assets/91586758/d6ce925a-0d4c-45d2-817e-24d6d59e0d63)
+    ![Embed Settings Download](/images/download-embedsecretkey.png)
+    ![EmbedConfig Properties](/images/embedconfig-file.png)
 
 * Copy the downloaded `embedConfig.json` file and paste it into the `Server folder` [location](https://github.com/boldbi/blazor-webassembly-sample/tree/master/BlazorWebAssembly/Server) within the application. Please ensure you have placed it in the application, as shown in the following image.
 
-    ![EmbedConfig image](https://github.com/boldbi/blazor-webassembly-sample/assets/91586758/f0e65790-6db0-4ff5-8302-29100b1f66fa)
+    ![EmbedConfig image](/images/embedconfig-location.png)
 
 ## How to run sample using command prompt
 
@@ -39,7 +39,7 @@ This project was created using ASP.NET Core 7.0. This application aims to demons
 
 ## Developer IDE
 
-* Visual studio code(<https://code.visualstudio.com/download>)
+* [Visual Studio Code](<https://code.visualstudio.com/download>)
 
 ### How to run sample using visual studio code
 
@@ -49,7 +49,7 @@ This project was created using ASP.NET Core 7.0. This application aims to demons
 
   3. To run the application, use the command `dotnet watch run` in the terminal. After executing the command, the application will automatically launch in the default browser. You can access it at the specified port number (e.g., <http://localhost:5154/>).
 
-     ![dashboard image](https://github.com/boldbi/aspnet-core-sample/assets/91586758/817913b9-620e-43b5-bd98-fed9e800c668)
+     ![dashboard image](/images/dashboard.png)
 
 Please refer to the [help documentation](https://help.boldbi.com/embedding-options/embedding-sdk/samples/blazor-web-assembly/#how-to-run-blazor-webassembly-sample?utm_source=github&utm_medium=backlinks) to learn how to run the sample.
 
