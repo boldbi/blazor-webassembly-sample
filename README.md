@@ -1,6 +1,6 @@
 # Bold BI Embedded Sample in Blazor WebAssembly
 
-This project was created using ASP.NET Core 7.0. This application aims to demonstrate how to render the dashboard available on your Bold BI server.
+This project was created using ASP.NET Core 8.0. This application aims to demonstrate how to render the dashboard available on your Bold BI server.
 
 ## Dashboard view
 
@@ -8,7 +8,7 @@ This project was created using ASP.NET Core 7.0. This application aims to demons
 
 ## Requirements/Prerequisites
 
-* [.NET Core 7.0](https://dotnet.microsoft.com/download/dotnet-core)
+* [.NET Core 8.0](https://dotnet.microsoft.com/download/dotnet-core)
 
 ### Supported browsers
   
