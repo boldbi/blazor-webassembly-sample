@@ -8,7 +8,6 @@
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
     <link href="css/app.css" rel="stylesheet" />
     <link rel="icon" type="image/png" href="favicon.png" />
-    <link href="BlazorWebAssembly.Client.styles.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -53,21 +52,16 @@
         function renderDashboard() {
             this.dashboard = BoldBI.create({
                 serverUrl: data.ServerUrl + "/" + data.SiteIdentifier,
-                dashboardId: data.DashboardId, // Provide the item id here to render the dashboard in design mode or to create dashboard don't initialize this property
+                dashboardId: data.DashboardId,
                 embedContainerId: "dashboard",
-                embedType: data.EmbedType,
-                environment: data.Environment,
-                mode: BoldBI.Mode.View,
                 width: "100%",
-                height: window.innerHeight -3 + "px",
-                expirationTime: 100000,
+                height: window.innerHeight + "px",
                 authorizationServer: {
                     url: authorizationServerUrl
-                },
+                }
             });
             this.dashboard.loadDashboard();
         }
     </script>
 </body>
-
 </html>
